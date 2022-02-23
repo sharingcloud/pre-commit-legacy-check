@@ -16,7 +16,7 @@ function printWarning(files = []) {
     console.log(yellow, '### WARNING ###', reset)
     console.log(yellow, 'You made some edits in legacy files:', reset)
     files.forEach(file => console.log('- ', file))
-    console.log(yellow, 'This files are not compiled and need to be supported on old browsers like Internet Explorer', reset)
+    console.log(yellow, 'These files are not compiled and need to be supported on old browsers like Internet Explorer', reset)
     console.log(yellow, 'Please check there is no missing const, let, arrow functions or others ES6+ features before to push', reset)
     console.log(yellow, '################', reset)
 }
