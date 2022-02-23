@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "license": "ISC",
   "author": "Quentin Le Rolland <quentin.lerolland@sharingcloud.com>",
+  "files": [
+    "./legacy-check.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sharingcloud/pre-commit-legacy-check.git"
+  },
   "bin": {
     "check-legacy": "./legacy-check.js"
   },
