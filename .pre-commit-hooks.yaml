@@ -1,0 +1,7 @@
+- id: legacycheck
+  name: Sharingcloud Legacy Check
+  entry: 'check-legacy'
+  language: node
+  verbose: true
+  pass_filenames: false
+  args: ["**/*.js"]
