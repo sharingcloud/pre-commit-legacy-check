@@ -1,0 +1,12 @@
+{
+  "name": "@sharingcloud/pre-commit-legacy-check",
+  "version": "1.0.0",
+  "license": "ISC",
+  "author": "Quentin Le Rolland <quentin.lerolland@sharingcloud.com>",
+  "bin": {
+    "check-legacy": "./legacy-check.js"
+  },
+  "dependencies": {
+    "minimatch": "^5.0.0"
+  }
+}
